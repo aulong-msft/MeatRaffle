@@ -10,7 +10,8 @@ This is a simple Flask application that keeps track of points for a list of user
 4. Run the application with `python app.py`.  
   
 ## Usage  
-  
+- Activate the env: `.\env\Scripts\activate`
+- Run the application with `python app.py`
 - Add points to a user by clicking their name.  
 - Reset all points with the "Reset" button.  
 - Randomly select a winner with the "Draw a random winner" button.  

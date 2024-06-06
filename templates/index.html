@@ -10,7 +10,7 @@
             <input type="submit" value="{{ name }}: {{ points }}">    
         </form>    
         {% for i in range(points) %}  
-            <img src="{{ url_for('static', filename='bacon.jpg') }}" alt="bacon strip" style="width:2%;">  
+            <img src="{{ url_for('static', filename='bacon.jpg') }}" alt="bacon strip" style="width:3%;">  
         {% endfor %}  
     {% endfor %}    
     <form action="/random_winner" method="post">    
